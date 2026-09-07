@@ -1,0 +1,81 @@
+cff-version: 1.2.0
+title: >-
+  Data-efficient Bayesian-guided design selection from large candidate sets:
+  Application to hyperelastic stochastic metamaterials (source code)
+message: >-
+  If you use this software, please cite the paper listed under
+  preferred-citation.
+type: software
+authors:
+  - given-names: Hooman
+    family-names: Danesh
+    email: hooman.danesh@tu-braunschweig.de
+    affiliation: >-
+      Division of Data-Driven Modeling of Mechanical Systems, Institute of
+      Applied Mechanics, Technische Universität Braunschweig
+  - given-names: Henning
+    family-names: Wessels
+    affiliation: >-
+      Division of Data-Driven Modeling of Mechanical Systems, Institute of
+      Applied Mechanics, Technische Universität Braunschweig
+license: MIT
+keywords:
+  - Bayesian optimization
+  - Gaussian processes
+  - active learning
+  - inverse design
+  - metamaterials
+  - hyperelasticity
+  - two-point statistics
+
+# The article is what should be cited for the method and the results. GitHub
+# shows this under "Cite this repository".
+preferred-citation:
+  type: article
+  title: >-
+    Data-efficient Bayesian-guided design selection from large candidate sets:
+    Application to hyperelastic stochastic metamaterials
+  authors:
+    - given-names: Hooman
+      family-names: Danesh
+    - given-names: Henning
+      family-names: Wessels
+  journal: Materials & Design
+  year: 2026
+  start: 116984
+  issn: 0264-1275
+  publisher:
+    name: Elsevier
+  doi: 10.1016/j.matdes.2026.116984
+
+references:
+  - type: article
+    title: Reduced-order structure-property linkages for stochastic metamaterials
+    authors:
+      - given-names: Hooman
+        family-names: Danesh
+      - given-names: Maruthi
+        family-names: Annamaraju
+      - given-names: Tim
+        family-names: Brepols
+      - given-names: Stefanie
+        family-names: Reese
+      - given-names: Surya R.
+        family-names: Kalidindi
+    journal: Physical Review Materials
+    volume: 9
+    issue: 7
+    start: 75201
+    year: 2025
+    doi: 10.1103/8zzt-4b7z
+    notes: Reference for the two-point-statistics descriptor construction.
+
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.19009893
+    description: Archived datasets and cached results for this work
+  - type: doi
+    value: 10.5281/zenodo.19009892
+    description: Concept DOI, resolves to the latest version of the dataset
+version: 1.0.0
+date-released: 2026-09-07

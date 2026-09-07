@@ -1,0 +1,34 @@
+# ---------------------------------------------------------------------------
+# Data and results retrieved from Zenodo by download_data.py.
+# These are archived with the paper, not stored in git.
+# ---------------------------------------------------------------------------
+data/*
+!data/README.md
+output/*
+!output/README.md
+
+# Downloader scratch space
+.zenodo_cache/
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# ---------------------------------------------------------------------------
+# Notebooks and Matplotlib
+# ---------------------------------------------------------------------------
+.ipynb_checkpoints/
+reproduction/.matplotlib/
+
+# ---------------------------------------------------------------------------
+# Editors and operating systems
+# ---------------------------------------------------------------------------
+.DS_Store
+.vscode/
+.idea/

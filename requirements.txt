@@ -1,0 +1,22 @@
+# Dependencies for the Bayesian-guided design selection (BayGDS) code.
+#
+#   python -m pip install -r requirements.txt
+#
+# The lower bounds are the versions the manuscript results were produced with
+# (Python 3.13.7, macOS, CPU).  The upper bounds keep the next major release of
+# each package from silently changing behaviour.
+#
+# download_data.py deliberately depends on nothing here: it uses only the
+# standard library, so the data can be fetched before this file is installed.
+
+numpy>=2.3,<3
+scipy>=1.16,<2
+scikit-learn>=1.7,<2
+pandas>=2.3,<3
+matplotlib>=3.10,<4
+torch>=2.5,<3
+gpytorch>=1.14,<2
+
+# Only needed to execute reproduction/reproduce.ipynb.
+# The equivalent script, reproduction/reproduce.py, does not require it.
+jupyter>=1.1

@@ -1,0 +1,31 @@
+{
+  "record_id": "19009893",
+  "doi": "10.5281/zenodo.19009893",
+  "generated": "2026-09-07T16:27:51+0200",
+  "archives": [
+    {
+      "name": "baygds-data.tar.gz",
+      "description": "Microstructures, PC-score descriptors, oracle stress responses, the selected surrogate checkpoint, and all cached experiment results.",
+      "size": 266716240,
+      "md5": "ba82d4596d7758a7c5d8d8f0e6cd16e7",
+      "targets": [
+        "data/structures/structures.npz",
+        "data/pca/pc_scores.npz",
+        "data/oracle/oracle_0deg.npz",
+        "data/oracle/oracle_45deg.npz",
+        "output/surrogate/active_learning/al_model_selected.pt",
+        "output/surrogate/active_learning/al_config.json",
+        "output/surrogate/active_learning/al_state.npz",
+        "output/surrogate/active_learning/normalization_stats.npz",
+        "output/inverse_design/sweep_settings.json",
+        "output/inverse_design/runs/p11_p22_p12/eval_0050/inverse_design.npz",
+        "output/studies/pc_dimension/metrics.npz",
+        "output/studies/lambda_sensitivity/results.npz",
+        "output/studies/baseline_comparison/proposed/results.npz",
+        "output/studies/baseline_comparison/random_search/results.npz",
+        "output/studies/baseline_comparison/bo_ei_engineered_features/results.npz",
+        "output/studies/baseline_comparison/bo_ei_raw_image_pcs/results.npz"
+      ]
+    }
+  ]
+}
